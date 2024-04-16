@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Batería Acústica</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+  <!-- Encabezado con título y menú de navegación -->
+  <header class="container-fluid bg-dark text-light py-4">
+    <div class="container">
+      <h1 class="text-center">Batería Acústica</h1>
+    </div>
+  </header>
+
+  <!-- Zona de imagen -->
+  <section class="container my-4">
+    <div class="row">
+      <div class="col">
+        <img src="https://www.thomann.de/blog/wp-content/uploads/2017/01/10-tipps-fuer-die-erweiterung-eures-akustiksets.jpg" class="img-fluid" alt="Imagen de batería acústica">
+      </div>
+    </div>
+  </section>
+
+  <!-- Zona de información en forma de párrafos -->
+  <section class="container">
+    <div class="row">
+      <div class="col">
+        <h2>Información sobre la batería acústica</h2>
+        <p>Esta pieza musical está formada por diversas piezas. Contiene un bombo, una caja, los toms (que van montados sobre el bombo), el tom base (el cual tiene patas individuales), los platillos, los pedales y, por último, las baquetas para tocar. <a href="https://es.wikipedia.org/wiki/Bater%C3%ADa_(instrumento_musical)">Más información aquí</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Zona de lista de elementos -->
+  <section class="container">
+    <div class="row">
+      <div class="col">
+        <h2>Características de la batería acústica</h2>
+        <ul>
+          <li>Durabilidad</li>
+          <li>Calidad del sonido</li>
+          <li>Materiales de calidad</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Zona de formulario de suscripción -->
+  <section class="container my-4">
+    <div class="row">
+      <div class="col">
+        <h2>Suscríbete para recibir más información sobre Baterias</h2>
+        <form action="procesar-suscripcion.php" method="POST">
+          <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" class="form-control" required>
+          </div>
+          <button type="submit" class="btn btn-primary">Suscribirse</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
